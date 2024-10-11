@@ -1,0 +1,97 @@
+/* Navbar.css or a separate CSS file */
+.admin-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.admin-page h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.admin-page button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap Primary Color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-page button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+/* AdminPage.css */
+.admin-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-page h2 {
+    margin-bottom: 20px;
+}
+
+.admin-page button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap Primary Color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.admin-page button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.user-list {
+    width: 100%;
+    max-width: 400px;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-card h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.user-card p {
+    margin: 5px 0;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 150px; /* Set a fixed width for thumbnails */
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.details{
+    font-size: 25px;
+    padding: 10px;
+}
+.details p{
+    font-size: 18px;
+}
